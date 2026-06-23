@@ -22,6 +22,8 @@ UPDATE orders SET customer_name = TRIM(customer_name);
 
 -- Delete the test/junk data row.
 DELETE FROM orders WHERE order_id = 26;
+--or 
+DELETE FROM orders WHERE customer_name = 'test entry';
 
 -- Handle NULL emails: UPDATE them to placeholder
 UPDATE orders SET email = 'not.provided@placeholder.com' WHERE email IS NULL;
