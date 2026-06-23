@@ -3,6 +3,7 @@ UPDATE orders SET city = 'Cebu City' WHERE city = 'cebu city';
 UPDATE orders SET city = 'Davao City' WHERE city = 'davao city';
 UPDATE orders SET city = 'Makati' WHERE city = 'MAKATI';
 UPDATE orders SET city = 'Quezon City' WHERE city = 'quezon city';
+UPDATE orders SET city = 'Cagayan De Oro' WHERE city = 'Cagayan de oro';
 
 --Standardize all category values (e.g., 'accessories' → 'Accessories'). 
 UPDATE orders SET category = 'Accessories' WHERE category = 'ACCESSORIES';
