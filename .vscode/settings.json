@@ -5,6 +5,12 @@
             "driver": "SQLite",
             "name": "Any",
             "database": "./Day06_practice.db"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "demo",
+            "database": "./Day06_demo.db"
         }
     ]
 }
